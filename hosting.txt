@@ -1,0 +1,5 @@
+Firebase hosting :
+    https://my-premier-league-9cbe3.web.app/
+
+Github repository :
+    https://github.com/irpansyam/irpansyam_submit3pwa.github.io
