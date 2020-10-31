@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Submission 3 PWA</title>
+    <meta name="description" content="Submission 3 PWA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#512da8" />
+  </head>
+  <body class="blue-grey darken-4">
+    <!-- Navigasi -->
+    <nav class="deep-purple darken-2" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="./index.html" class="brand-logo" id="logo-container">
+          <span class="truncate">Premier League</span>
+        </a>
+        <a href="./index.html" class="sidenav-trigger" data-target="nav-mobile">
+          <i class="material-icons">arrow_back</i>
+        </a>
+        <ul class="right" id="delete-fav">
+          <li>
+            <a href="./index.html"><i class="material-icons">delete</i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+    <div class="container blue-grey-text text-lighten-4" id="body-content">
+      <div class="progress" id="preload">
+        <div class="indeterminate"></div>
+      </div>
+    </div>
+    <div class="fixed-action-btn">
+      <a
+        class="btn-floating btn-large purple pulse tooltipped"
+        id="favorite"
+        data-position="top"
+        data-tooltip="Add to favorite"
+      >
+        <i class="large material-icons">favorite</i>
+      </a>
+    </div>
+    <footer class="page-footer deep-purple darken-2">
+      <div class="footer-copyright">
+        <div class="container">
+          © 2020 Copyright Premier League versi Irpan....wkwkwkw
+        </div>
+      </div>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"
+      integrity="sha512-LGXaggshOkD/at6PFNcp2V2unf9LzFq6LE+sChH7ceMTDP0g2kn6Vxwgg7wkPP7AAtX+lmPqPdxB47A0Nz0cMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="views/viewHtml.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/initTeam.js"></script>
+  </body>
+</html>
